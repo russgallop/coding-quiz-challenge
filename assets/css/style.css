@@ -1,0 +1,96 @@
+
+* {    
+    font-family: Arial, Helvetica, sans-serif;      
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    border: 5px solid black; 
+    border-radius: 6px;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 30%;   
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;    
+}
+
+button {
+    outline: none;
+    background-color: white;
+    color: purple;
+    font-size: 16px;
+    border: none
+}
+
+.questions {
+    outline: none;
+    background-color: white;
+    color: purple;
+    font-size: 16px;
+    border: none
+}
+
+.startbtn {       
+    font-size: 18px;
+    margin-top:20%;  
+    padding: 15px 15px;
+    background-color: darkblue;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    justify-content: center;
+       
+}
+
+.btn {  
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+
+.top-bar p {
+    margin:0%;
+    float: right;    
+    color: purple;  
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizStart {
+    font-size: 18px;
+    margin-top:20%;  
+    padding: 15px 15px;
+    background-color: darkblue;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    justify-content: center;  
+}
